@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoftwareApp.DataTransferObjects\SoftwareApp.DataTransferObjects.csproj" />
+    <ProjectReference Include="..\SoftwareApp.DI\SoftwareApp.DI.csproj" />
+    <ProjectReference Include="..\SoftwareApp.IBusinessLogic\SoftwareApp.IBusinessLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

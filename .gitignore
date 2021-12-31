@@ -3,3 +3,22 @@
 ################################################################################
 
 /SoftwareApp/Software.DI/obj/Debug/netcoreapp3.1
+/SoftwareApp/SoftwareApp.API/bin/Debug
+/SoftwareApp/SoftwareApp.API/obj
+/SoftwareApp/SoftwareApp.BusinessLogic/bin/Debug/net5.0
+/SoftwareApp/SoftwareApp.BusinessLogic/obj
+/SoftwareApp/SoftwareApp.DataAccess/obj
+/SoftwareApp/SoftwareApp.DataAccess/bin/Debug/net5.0
+/SoftwareApp/SoftwareApp.DataTransferObjects/obj
+/SoftwareApp/SoftwareApp.DataTransferObjects/bin/Debug
+/SoftwareApp/SoftwareApp.DI/obj
+/SoftwareApp/SoftwareApp.DI/bin/Debug/net5.0
+/SoftwareApp/SoftwareApp.DataTransferObjects/LocationDTO.cs
+/SoftwareApp/SoftwareApp.Entities/obj
+/SoftwareApp/SoftwareApp.Entities/bin/Debug
+/SoftwareApp/SoftwareApp.IBusinessLogic/obj
+/SoftwareApp/SoftwareApp.IBusinessLogic/bin/Debug/net5.0
+/SoftwareApp/SoftwareApp.IDataAccess/obj
+/SoftwareApp/SoftwareApp.IDataAccess/bin/Debug/net5.0
+/SoftwareApp/XUnitTest/obj
+/SoftwareApp/XUnitTest/bin/Debug/netcoreapp3.1

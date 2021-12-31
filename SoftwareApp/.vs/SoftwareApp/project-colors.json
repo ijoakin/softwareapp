@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a50c809c-1a4d-4628-bae2-b09d60f9eb75": {
+      "ProjectGuid": "a50c809c-1a4d-4628-bae2-b09d60f9eb75",
+      "DisplayName": "SoftwareApp.API",
+      "ColorIndex": 0
+    },
+    "10be1957-05b4-4475-a2a9-a8057be37291": {
+      "ProjectGuid": "10be1957-05b4-4475-a2a9-a8057be37291",
+      "DisplayName": "SoftwareApp.DI",
+      "ColorIndex": 1
+    },
+    "ca55b41f-8e53-4e77-b52f-6253c6c7a196": {
+      "ProjectGuid": "ca55b41f-8e53-4e77-b52f-6253c6c7a196",
+      "DisplayName": "SoftwareApp.BusinessLogic",
+      "ColorIndex": 2
+    },
+    "5649f377-6237-4b7f-9035-46bae8a3a12d": {
+      "ProjectGuid": "5649f377-6237-4b7f-9035-46bae8a3a12d",
+      "DisplayName": "XamarinForm",
+      "ColorIndex": 3
+    },
+    "c75ba7c0-8593-4704-8b0b-da0ed9ee2e83": {
+      "ProjectGuid": "c75ba7c0-8593-4704-8b0b-da0ed9ee2e83",
+      "DisplayName": "ServiceNet6",
+      "ColorIndex": 4
+    },
+    "10586aed-037d-4f42-93da-20b05baa5f7c": {
+      "ProjectGuid": "10586aed-037d-4f42-93da-20b05baa5f7c",
+      "DisplayName": "BlazorSoftware",
+      "ColorIndex": 5
+    },
+    "78bdceeb-25fb-4e95-89d7-94bb81b7122f": {
+      "ProjectGuid": "78bdceeb-25fb-4e95-89d7-94bb81b7122f",
+      "DisplayName": "AndroidUI",
+      "ColorIndex": 6
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "331c2c30-3445-4beb-b345-21563642e988": {
+      "ProjectGuid": "331c2c30-3445-4beb-b345-21563642e988",
+      "DisplayName": "mobile_maui",
+      "ColorIndex": 7
+    },
+    "cd550515-83e7-41c5-868d-0e820123f7ed": {
+      "ProjectGuid": "cd550515-83e7-41c5-868d-0e820123f7ed",
+      "DisplayName": "SoftwareApp.IBusinessLogic",
+      "ColorIndex": 8
+    },
+    "b5796488-b967-4261-a3b6-6145baa89ad3": {
+      "ProjectGuid": "b5796488-b967-4261-a3b6-6145baa89ad3",
+      "DisplayName": "SoftwareApp.DataTransferObjects",
+      "ColorIndex": 9
+    },
+    "e31a76d5-4d82-4935-8303-20aec33779bb": {
+      "ProjectGuid": "e31a76d5-4d82-4935-8303-20aec33779bb",
+      "DisplayName": "SoftwareApp.Entities",
+      "ColorIndex": 10
+    },
+    "93e5f380-10eb-45b5-8cc5-44f9e8c28ed3": {
+      "ProjectGuid": "93e5f380-10eb-45b5-8cc5-44f9e8c28ed3",
+      "DisplayName": "SoftwareApp.DataAccess",
+      "ColorIndex": 11
+    }
+  },
+  "NextColorIndex": 12
+}

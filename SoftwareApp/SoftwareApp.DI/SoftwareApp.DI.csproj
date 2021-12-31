@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoftwareApp.BusinessLogic\SoftwareApp.BusinessLogic.csproj" />
+    <ProjectReference Include="..\SoftwareApp.DataAccess\SoftwareApp.DataAccess.csproj" />
+    <ProjectReference Include="..\SoftwareApp.DataTransferObjects\SoftwareApp.DataTransferObjects.csproj" />
+    <ProjectReference Include="..\SoftwareApp.Entities\SoftwareApp.Entities.csproj" />
+    <ProjectReference Include="..\SoftwareApp.IBusinessLogic\SoftwareApp.IBusinessLogic.csproj" />
+    <ProjectReference Include="..\SoftwareApp.IDataAccess\SoftwareApp.IDataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
