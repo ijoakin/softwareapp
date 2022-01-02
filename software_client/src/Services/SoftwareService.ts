@@ -1,6 +1,6 @@
 export const getSoftware = () => {
   
-   const apiUrl = 'https://localhost:5001/api/SoftwareApp';
+   const apiUrl = process.env.REACT_APP_BASE_URL + 'api/SoftwareApp';
      return fetch(apiUrl,
         {
           method: 'GET',

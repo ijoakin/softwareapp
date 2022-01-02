@@ -1,6 +1,6 @@
 export const getLocations = () => {
   
-   const apiUrl = 'https://localhost:5001/api/Location/GetAllLocations';
+   const apiUrl = process.env.REACT_APP_BASE_URL + 'api/Location/GetAllLocations';
      return fetch(apiUrl,
         {
           method: 'GET',

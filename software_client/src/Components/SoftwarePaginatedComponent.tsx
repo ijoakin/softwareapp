@@ -84,7 +84,7 @@ export const SoftwarePaginatedComponent = () => {
   const fetchSoftware = async () => {
     setLoading(true);
 
-    const url = "https://localhost:5001/api/SoftwareApp/GetSoftware";
+    const url = process.env.REACT_APP_BASE_URL + "api/SoftwareApp/GetSoftware";
     const res = await axios.get(url, {
       params: {
         name: softFilter.softwareName,
@@ -124,7 +124,7 @@ export const SoftwarePaginatedComponent = () => {
   };
 
   const handleSave = async () => {
-    const url = "https://localhost:5001/api/SoftwareApp/SaveSoftware";
+    const url = process.env.REACT_APP_BASE_URL + "api/SoftwareApp/SaveSoftware";
 
     const softwareToSave = { ...soft };
     axios
@@ -144,7 +144,9 @@ export const SoftwarePaginatedComponent = () => {
 
   const handleDelete = (i: number) => {
     const url =
-      "https://localhost:5001/api/SoftwareApp/DeleteSoftwareById/" + i;
+      process.env.REACT_APP_BASE_URL +
+      "api/SoftwareApp/DeleteSoftwareById/" +
+      i;
     axios
       .delete(url)
       .then((response) => {

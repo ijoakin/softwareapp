@@ -1,6 +1,6 @@
 export const getPlatforms = () => {
   
-   const apiUrl = 'https://localhost:5001/api/Platform/GetAllPlatforms';
+   const apiUrl = process.env.REACT_APP_BASE_URL + 'api/Platform/GetAllPlatforms';
      return fetch(apiUrl,
         {
           method: 'GET',
